@@ -39,9 +39,8 @@ const playGame = (humanChoice, computerChoice) => {
         <p>Total Scores: ${playerScore} (Player) — ${computerScore} (Computer)</p>
         `;
     } else {
-
         const winner = checkWinner();
-        result.innerHTML += playerScore === computerScore || !winner ? `Game over. The game ended in a TIE.` : `Game over. ${winner} won the game!`;
+        result.innerHTML += playerScore === computerScore || !winner ? `<h2>Game over. The game ended in a TIE.</h2>` : `<h2>Game over. ${winner} won the game!</h2>`;
         restartGame();
     }
 }

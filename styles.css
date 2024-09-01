@@ -18,6 +18,10 @@ button {
     border-radius: 10px;
 }
 
+h2 {
+    font-size: 1.4rem;
+}
+
 #restart {
     margin-top: 20px;
     display:none;
